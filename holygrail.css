@@ -1,0 +1,48 @@
+
+   .container{
+    
+       display:flex;
+       height: 100%;
+       border: 5px solid black;
+       flex-direction: column;
+   }
+   .body{
+       display: flex;
+       flex: 1;
+   }
+   .center{
+        background: pink;
+        flex: 6;
+        border: 5px solid black;
+   }
+   .heading{
+       
+       background: lightblue;
+       
+   }
+   .menu{
+        background: rgb(175, 114, 184);
+        flex: 1;
+        list-style: none;
+        border-top: 5px solid black;
+        border-bottom: 5px solid black;
+   }
+  
+   .rightside{
+   
+        background: rgb(175, 114, 184);
+        flex: 1;
+        border-top: 5px solid black;
+        border-bottom: 5px solid black;
+        
+   }
+   .footer{
+        background: lightblue;
+        justify-content: flex-end;
+   }
+   .nobull{
+       list-style: none;
+       padding: 0;
+
+   }
+  
